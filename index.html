@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <!-- input box -->
+        <label for="input-box">Enter value : </label>
+        <input name="input_value" type="number" placeholder="Enter value" id="input-box" min="1" required>
+        <!-- from -->
+        <label for="from_country">From:</label>
+        <select name="from_country" id="from_country" required></select>
+        <!-- to  -->
+        <button type="button"  id="swap-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M320-440v-287L217-624l-57-56 200-200 200 200-57 56-103-103v287h-80ZM600-80 400-280l57-56 103 103v-287h80v287l103-103 57 56L600-80Z"/></svg></button>
+        <label for="to_country">To :</label>
+        <select name="to_country" id="to_country" required></select>
+        <!-- submit button -->
+        <button type="submit" class="btn">Convert</button>
+    </form>
+
+    
+
+    <h3 id="display">Convert Your Money</h3></p>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

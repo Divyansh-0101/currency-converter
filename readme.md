@@ -14,8 +14,9 @@ You will need a free API key to fetch live exchange rate data.
 1. Visit [ExchangeRate-API](https://www.exchangerate-api.com/).
 2. Create a free account.
 3. Copy your unique API key from the dashboard.
-
- currency-converter
+```
+  currency-converter
  ┣ index.html    # The main layout and structure
  ┣ style.css     # UI styling, responsive design, and animations
  ┗ script.js     # API fetching, logic, and DOM manipulation
+```
